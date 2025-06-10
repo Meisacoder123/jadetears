@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="Logo.jpg">
     <title>Jade Tears' Website</title>
     <meta name="keywords" content="Jade Tears, music, BandLab">
     <meta name="description" content="This is Jade Tear's Music.">
@@ -11,11 +13,16 @@
     <header>
       <h1>Jade Tears</h1>
       <nav>
-        <a href="https://bandlab.com/jade-tears/">BandLab</a>
+        <button type="button" onclick="window.location.href='https://jadetears.gumroad.com/'">Gumroad</button>
+        <button type="button" onclick="window.location.href='https://bandlab.com/jade_tears/'">BandLab</button>
+        <button type="button" onclick="window.location.href='https://jadetears.bandcamp.com/'">Bandcamp</button>
       </nav>
     </header>
-    <iframe src="https://bnd.link/jade_tears/" title="BandLab page for Jade Tears"></iframe>
-    <h2>Penguins</h2>
-    <iframe width="560" height="202" src="https://www.bandlab.com/embed/?id=aaf4b26d-5e39-f011-a5f1-6045bd2f3017" allowfullscreen></iframe>
+    <div id="announcement">
+      <h2>NEW ALBUM: "Do It Again"</h2>
+    </div>
+    <h1>New & Featured Music</h1>
+    <h2>Do It Again</h2>
+    <iframe title="Do It Again" src="https://www.bandlab.com/embed/collection/?id=cc1698b8-9738-f011-a5f1-000d3a930a05" allowfullscreen></iframe>
   </body>
 </html>
